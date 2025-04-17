@@ -2,7 +2,7 @@
 
 #### This is managed mainly with uv for faster and better project management
 
-# Quiestions
+# Questions
 ##### What are the problems that we can solve with this data
 ###### 1. We can predict what kinds of problems a user can solve to get a better performance
 ###### 2. We can detect anomalies based on the model outcome and run plagrism tests on that user more frequetnly
