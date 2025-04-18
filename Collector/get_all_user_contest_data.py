@@ -73,7 +73,7 @@ def get_user_data(user:str,contest_required_data:pd.DataFrame = None)->pd.DataFr
 
         # Final rows to collect enriched contest info
         final_rows = []
-        print("printing cols\n",contest_data.columns)
+        
         for _, row in contest_data.iterrows():
             contest_time = row['startTimeSeconds']
     
