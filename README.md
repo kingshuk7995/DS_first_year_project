@@ -38,6 +38,8 @@ This folder contains the datasets used and generated during the project.
 - Implements K-Nearest Neighbors (KNN) and Random Forest classifiers to predict rating changes.
 - Evaluates models using accuracy, confusion matrices, and classification reports.
 - Explores hyperparameter tuning (e.g., varying the number of neighbors in KNN).
+- Train set consists 200 users randomly taken from all_users.csv and their contests are splitted randomly for train and test data.
+- Evaluation with validation set of 15 users randomly taken from all_users.csv who are not in test or train set.
 
 ## Questions Addressed
 1. **What problems can we solve with this data?**
