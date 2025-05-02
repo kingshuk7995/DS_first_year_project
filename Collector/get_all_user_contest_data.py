@@ -108,7 +108,7 @@ if __name__ == '__main__':
     handles = pd.read_csv('Dataset/all_users.csv')['handle'].to_list()
 
     # taking 50 random handles
-    handles = sample(handles,50)
+    handles = sample(handles,200)
 
     # Store user-wise DataFrames
     dataframes = []
